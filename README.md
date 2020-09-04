@@ -95,6 +95,6 @@ Npm package installation
         }
 
 
-<h3>Original Resources: </h3>
+<h3>Original Resource: </h3>
           
           https://github.com/gauravsoni119/ng2-tel-input
