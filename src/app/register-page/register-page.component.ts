@@ -1,5 +1,6 @@
 import { Component, OnInit } from "@angular/core";
 import { User } from "../user";
+import { Router } from "@angular/router";
 
 @Component({
     selector: "app-register-page",
@@ -9,14 +10,13 @@ import { User } from "../user";
 export class RegisterPageComponent implements OnInit {
     user: User;
     isMobileFieldValid: boolean;
+    emailPattern: string = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}";
 
-    constructor() {
+    constructor(private router: Router) {
         this.user = new User();
     }
 
     ngOnInit() {}
-
-    emailPattern: string = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}";
 
     hasError(event) {
         console.log("Has Error: ", event);
@@ -35,5 +35,7 @@ export class RegisterPageComponent implements OnInit {
         console.log("onCountryChange: ", event);
     }
 
-    onSubmit() {}
+    onSubmit() {
+        this.router.navigateByUrl("/dashboard");
+    }
 }

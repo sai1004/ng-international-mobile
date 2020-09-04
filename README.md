@@ -1,11 +1,12 @@
 # ng-international-mobile
 
-  To Clone:
-  
+To Clone:
+
+    open Terminal
+
     git clone https://github.com/sai1004/ng-international-mobile.git
-    
-    cd ng-international-mobile && npm i
-      
+
+    cd ng-international-mobile && npm i && code .
 
 # Documentation
 
@@ -14,7 +15,7 @@ Npm package installation
   
         npm install ng2-tel-input intl-tel-input --save
         
-<h3 Step 2:  </h3>
+<h3> Step 2:  </h3>
 
 <h6>Adding External Files:<h6>
 
