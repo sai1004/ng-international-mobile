@@ -9,7 +9,8 @@ Npm package installation
         npm install ng2-tel-input intl-tel-input --save
         
 <h3 Step 2:  </h3>        
-Adding External Files:
+
+<h6>Adding External Files:<h6>
 
 <ul>
   <li>Include intlTelInput.css in "styles" at your angular.json file :</li>
@@ -26,20 +27,19 @@ Adding External Files:
             ...
             "node_modules/intl-tel-input/build/js/intlTelInput.min.js"
             ...
-        ]
-  
+        ]  
 </ul>
 
 
 <h3> Step 3: </h3>
-Importing  Ng2TelInputModule Module  into your AppModule 
+<h6>Importing  Ng2TelInputModule Module  into your AppModule </h6>
 
          import {Ng2TelInputModule} from 'ng2-tel-input';
          
-Now, We are good to go and start using in app
+<h6>Now, We are good to go and start using in app</h6>
 
 
-In order to use this directive, you need to add "ng2TelInput" directive with "[ng2TelInputOptions]" options to your text field. For example,
+<h6> In order to use this directive, you need to add "ng2TelInput" directive with "[ng2TelInputOptions]" options to your text field. For example, </h6>
 
 
           <input type="text"
