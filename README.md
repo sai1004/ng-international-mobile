@@ -56,8 +56,8 @@ Npm package installation
 
     @Component({
       selector: 'app-example',
-      templateUrl: './register-page.component.html',
-      styleUrls: ['./register-page.component.css']
+      templateUrl: './example.component.html',
+      styleUrls: ['./example.component.css']
     })
     export class ExampleComponent implements OnInit {
 
