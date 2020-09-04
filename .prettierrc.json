@@ -1,0 +1,10 @@
+{
+    "tabWidth": 4,
+    "printWidth": 160,
+
+    "editor.formatOnSave": true,
+
+    "[javascript]": {
+        "editor.formatOnSave": true
+    }
+}
