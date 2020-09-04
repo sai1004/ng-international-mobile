@@ -1,5 +1,12 @@
 # ng-international-mobile
 
+  To Clone:
+  
+    git clone https://github.com/sai1004/ng-international-mobile.git
+    
+    cd ng-international-mobile && npm i
+      
+
 # Documentation
 
 <h3> Step 1: Installation </h3> 
