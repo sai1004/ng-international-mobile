@@ -40,7 +40,7 @@ Npm package installation
 
 
 <h6> In order to use this directive, you need to add "ng2TelInput" directive with "[ng2TelInputOptions]" options to your text field. For example, </h6>
-
+<h6>example.component.html</h6>
 
           <input type="text"
           ng2TelInput
@@ -50,6 +50,43 @@ Npm package installation
           (intlTelInputObject)="telInputObject($event)"
           (countryChange)="onCountryChange($event)" />
 
+<h6>example.component.ts</h6>
 
+    import { Component, OnInit } from '@angular/core';
+
+    @Component({
+      selector: 'app-example',
+      templateUrl: './register-page.component.html',
+      styleUrls: ['./register-page.component.css']
+    })
+    export class ExampleComponent implements OnInit {
+
+      constructor() { }
+
+      ngOnInit() {
+      }
+      
+      
+             hasError(event){
+             console.log("Has Error: ",event)
+             }
+             
+             getNumber(event){
+             console.log("getNumber: ",event)
+
+             }
+           
+             telInputObject(event){
+             console.log("telInputObject: ",event)
+
+             }
+           
+             onCountryChange(event){
+             console.log("onCountryChange: ",event)
+
+             }
+           
+
+        }
 
 
